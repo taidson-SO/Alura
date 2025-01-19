@@ -20,5 +20,7 @@
     - Utilizar a estrutura de repetição for;
     - Utilizar o git e o github para compartilhar projetos;
 
+
 ## Snapshot
+### Você pode ver a página em funcionamento no link <a href="https://taidson-so.github.io/Alura/amigo-secreto/">amigo secreto</a>
 ![Alt](assets/snapshot.png "Snapshot interface page HTML")
