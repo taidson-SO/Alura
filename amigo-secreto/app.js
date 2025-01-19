@@ -37,4 +37,24 @@ function adicionarAmigos()
     } 
     entradaAmigos.value = "";
 
+    exibirListaDeAmigos();
+}
+
+
+
+function exibirListaDeAmigos()
+{
+    let mostradoramigos = document.getElementById("listaAmigos");
+
+    mostradoramigos.innerHTML = "";
+
+    amigosConfirmados.forEach
+    (
+        amigo => 
+        {
+            let participante = document.createElement('li');
+            participante.textContent = amigo;
+            mostradoramigos.appendChild(participante);
+        }
+    );
 }
