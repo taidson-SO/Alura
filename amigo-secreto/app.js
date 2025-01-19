@@ -58,3 +58,26 @@ function exibirListaDeAmigos()
         }
     );
 }
+
+
+function sortearNumeroSecreto(){ 
+    let numeroSorteado = Math.floor(Math.random() * amigosConfirmados.length);
+    return numeroSorteado;
+}
+
+
+function selecionarAmigoSecreto(numeroSecreto){
+    return amigosConfirmados[numeroSecreto];
+}
+
+
+function sortearAmigo(){
+    
+    if(amigosConfirmados.length == 0){
+        alert('Não há amigos para o sorteio!');
+        return 0;
+    }
+
+    let amigoSecreto = selecionarAmigoSecreto(sortearNumeroSecreto());
+    document.getElementById('resultado').innerHTML = amigoSecreto;
+}
