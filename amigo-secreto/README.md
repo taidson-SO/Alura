@@ -21,4 +21,4 @@
     - Utilizar o git e o github para compartilhar projetos;
 
 ## Snapshot
-![Alt](/assets/snapshot.png "Snapshot interface page HTML")
+![Alt](assets/snapshot.png "Snapshot interface page HTML")
