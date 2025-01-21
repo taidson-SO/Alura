@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --cor-primaria: #000;
     --cor-secundaria: #f6f6f6; 
@@ -8,11 +13,6 @@
 
     --font-principal: "Krona One", sans-serif;
     --font-secundaria: "Montserrat", sans-serif;
-}
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -30,7 +30,7 @@ header {
     gap: 80px;
 }
 
-.menu__header a {
+.links__nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -45,9 +45,11 @@ header {
     justify-content: space-between;
 }
 
-.presentation h1 {
+h1 {
+    margin-top: 5%;
     font-size: 36px;
     font-family: var(--font-principal);
+    text-align: center;
 }
 
 .presentation p {
@@ -56,6 +58,9 @@ header {
 }
 
 .presentation img {
+    position: fixed;
+    right: 10%;
+    top: 20%;
     background-color: var(--cor-quaternaria);
     width: 400px;
     border-radius: 0 80% 5% 70%;
@@ -106,6 +111,7 @@ header {
 }
 
 .presentation__links img {
+    position: inherit;
     width: 32px;
 }
 
@@ -121,4 +127,12 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 30px;
+    list-style: none;
 }
