@@ -1,0 +1,33 @@
+@import "home.css";
+
+@media (max-width: 1200px ) {
+    .presentation {
+        padding: 5% ;
+        flex-direction: column-reverse;
+    }
+
+    .presentation img {
+        position: inherit;
+        background-color: rgba(100, 100, 255, .5);
+        border-radius: 0 60% 60% 60%;
+        box-shadow: 0 2px 2px var(--cor-terciaria);
+    }
+
+    .presentation__content {
+        width: auto;
+    }
+
+    header {
+        padding: 10%;
+    }
+
+    .menu__header {
+        justify-content: center;
+    }
+
+    footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+}
