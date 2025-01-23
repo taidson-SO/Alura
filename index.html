@@ -4,58 +4,45 @@
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Soulinux.com</title>
     <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> -->
 </head>
 <body>
-    <header>
+    <header class="header">
+        <a class="links__nav" href="#">
+            <img src="assets/icones/home.svg" alt="botão home, retorna a página inical do site.">
+        </a>
         <nav class="menu__header">
-            <a class="links__nav" href="#">Home</a>
-            <a class="links__nav" href="pages/about.html">Sobre Mim</a>
-            <a class="links__nav" href="pages/index.html">Conheça meus projetos</a>
+            <img id="menu" src="assets/icones/menu.svg" alt="Três traços paralelos dispostos horizontalmente, com forma semelhante a um hamburger. Botão de menu">
+            <div class="menu_links">
+                <a class="links__nav" href="pages/about.html" hidden>Home</a>
+                <a class="links__nav" href="pages/about.html">Sobre Mim</a>
+                <a class="links__nav" href="pages/index.html">Conheça meus projetos</a>
+            </div>
         </nav>
     </header>
     <main class="presentation">
-        <section class="presentation__content">
-
-            <h1>
-                Eleve seu negócio digital a outro nível 
-                <strong class="enphasis-1">com um Front-end de qualidade!</strong>
+            <h1>Eleve seu negócio digital a outro nível 
+                com um <span>Front-end de qualidade!</span>
             </h1>
-                
-            <p>
-                Olá! Sou Taidson, desenvolvedor 
-                Front-end com especialidade em Backend com Java e Spring, e Front-end com HTML, SASS, TypeScript. Ajudo empresas e pessoas a 
-                colocarem em prática boas ideias. Vamos 
-                conversar?
-            </p>
-             
-            <div class="presentation__links">
-                <h2>Acesse minhas redes: </h2>
-                
-                <a href="https://github.com/taidson-so" target="_blank">
-                    <img src="assets/icones/github.png" alt="logo do github.">    
-                    GitHub
-                </a>
-                
-                <a href="https://instagram.com/taidson_silva" target="_blank">
-                    <img src="assets/icones/instagram.png" alt="logo do instagram.">    
-                    Instagram
-                </a>
-                 
-                <a href="https://linkedin.com/in/taidson" target="_blank">
-                    <img src="assets/icones/linkedin.png" alt="logo do instagram.">    
-                    Linkedin
-                </a>
+            
+            <div class="presentation_perfil">
 
+                <img src="assets/img/perfil-no-bkg.png" alt="Foto da Taidson, homem preto da pele clara, com 36 anos, usando camisa marrom escura com botões!">
+                
+                <p>Olá! Sou Taidson, desenvolvedor com especialidade em Backend com Java e Spring, e Front-end com HTML, SASS, TypeScript. Ajudo empresas e pessoas a colocarem em prática boas ideias. Vamos conversar?</p>
             </div>
-
-        </section>
-            <img src="assets/img/perfil-no-bkg.png" alt="Foto da Taidson, homem preto da pele clara, com 36 anos, usando camisa marrom escura com botões!">
+            <div class="icones_section">
+                <a href="https://github.com/taidson-SO/" target="_blank">
+                    <img src="assets/icones/github.svg" alt="Octocat, animal fictício meio polvo e meio gato usado como logo do github. Em azul com traços suaves.">
+                </a>
+                <a href="https://www.instagram.com/taidson_silva" target="_blank">
+                    <img src="assets/icones/instagram.svg" alt="Retângulo com cantos arredondados, contendo um circulo centralizado e um ponto menor na parte superior direita entre o retangulo e o circulo, representação de uma camêra usado como logo do Instagram. Em cor azul com traços suaves.">
+                </a>
+                <a href="https://www.linkedin.com/in/taidson" target="_blank">
+                    <img src="assets/icones/linkedin.svg" alt="IN, logo do Linkedin. Em cor azul com traços suaves.">
+                </a>
+            </div>
     </main>
     <footer>&copy; 2024 soulinux.com</footer>
 </body>
